@@ -146,9 +146,9 @@ def create_investitionskosten(sender, instance, **kwargs):
         summe_luftwechsel += data.luftwechsel_pro_nutzung
     
     
-    luftwechsel_pro_nutzung = leistung_pro.luftwechsel_pro_nutzung
     print (summe_luftwechsel)
-    print(luftwechsel_pro_nutzung)
+    
+    flaeche 
     
     
     

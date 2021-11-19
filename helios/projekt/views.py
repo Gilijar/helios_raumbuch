@@ -714,7 +714,7 @@ def upload_file_technikzentralen_elektro(request):
     return render (request, 'projekt/stammdaten_technikraueme_elektro.html' , {'form': form,})
 
 
-#Stammdaten Technikzentralen HLKS #TODO noch importieren
+#Stammdaten Technikzentralen HLKS 
 def upload_file_technikzentralen_hlks(request):  
     
     form = CsvModelForm(request.POST or None, 
